@@ -48,4 +48,3 @@ make
 
 + BBRes corresponds to (./BBRes/kDefective_BB_bitset.hpp,./BBRes/kDefective_BB_matrix.hpp);
 + PreProcessing corresponds to (./BBRes/Graph.cpp)
-# BBRes
