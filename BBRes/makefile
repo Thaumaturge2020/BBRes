@@ -1,4 +1,3 @@
-# ********     Author: Lijun Chang    ******
 # ******** Email: 220110422@hit.stu.edu.cn ******
 #
 CC=g++ -flto -O3
@@ -8,7 +7,7 @@ CFLAGS=-c -I. -std=c++11
 all: kDC
 
 kDC: .obj/main.o .obj/Graph.o
-	${CC} .obj/main.o .obj/Graph.o -o kDC_normal
+	${CC} .obj/main.o .obj/Graph.o -o BBRes
 	rm .obj/*.o
 
 .obj/main.o: main.cpp
