@@ -1976,7 +1976,7 @@ private:
 				if(degree_in_S[u] != S_end || neigh_tot < neigh_history) u=v,neigh_history = neigh_tot;
 			}
 			else{
-				if(degree_in_S[v] < degree_in_S[u] || (degree_in_S[v] == degree_in_S[u] && degree[v] < degree[u])) u=v,neigh_history = neigh_tot;
+				if(degree_in_S[v] > degree_in_S[u] || (degree_in_S[v] == degree_in_S[u] && degree[v] < degree[u])) u=v,neigh_history = neigh_tot;
 			}
 			#else
 			if(degree_in_S[u] == S_end) {
